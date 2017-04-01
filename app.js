@@ -1,8 +1,6 @@
-//app.js
+//app.js，将游戏配置文件放在APP中，可实现跨页之间共享
 App({
-  onLaunch: function () {},
-  
-  row:12,
-  column:8,
-  bomb:8,
+  row:12,//扫雷游戏的行数
+  column:8,//扫雷游戏的列数
+  bomb:8//包含雷的总数
 })
