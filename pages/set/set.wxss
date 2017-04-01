@@ -1,0 +1,3 @@
+/* pages/set/set.wxss */
+.section{ width:650rpx;}
+.setbtn{ display: block; margin: 50rpx 0;}

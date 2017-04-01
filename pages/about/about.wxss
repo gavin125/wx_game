@@ -1,0 +1,7 @@
+/**about.wxss**/
+.container{ justify-content: center;}
+.about{ padding: 5%; width:600rpx;  background:#eee; color: #999; flex-shrink:1}
+.about text{ display: block; line-height: 1.5rem;}
+
+.aboutme{ background: #f5f5f5; border-top:solid 1px #ccc; text-align: center; }
+.aboutme .title{ margin: 3% 0; background: #eee; padding: 5px; color:#333;}

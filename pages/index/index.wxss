@@ -1,0 +1,16 @@
+/**index.wxss**/
+
+.game{ display: flex; justify-content: center;flex-direction:column; position: relative;border:Solid 1px #f5f5f5;}
+.game .tr{ display: flex; flex-direction:row; }
+.game .td{  border:Solid 1px #f5f5f5; width:50rpx; height:50rpx;line-height:50rpx;text-align: center; position:relative; background: none;}
+.game .td .mask{position: absolute; top:0; left: 0; display: block; width: 40rpx; height:40rpx; background: #bbb; border-width: 5rpx; border-style: solid; border-color: #ddd #999 #999 #ddd;  }
+.game .td .color1{ color: blue;}
+.game .td .color2{ color: orange;}
+.game .td .color3{ color: red;}
+
+.game .dialog{ position: absolute; width: 100%; height:100%; background: rgba(0,0,0,0.8); display: flex;justify-content: center; align-items: center; flex-direction:column; }
+.game .warn{color:orange;}
+.game .success{color:green;}
+
+.setbtn{ display: block; margin: 50rpx 0;}
+

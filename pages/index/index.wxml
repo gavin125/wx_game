@@ -1,0 +1,34 @@
+<!--index.wxml-->
+<view class="container">
+
+  <view class="hint">移动端无法标记雷，将不是雷的模块全部翻出为胜</view>
+  
+  <view class="game">
+    <view class="tr" wx:for="{{gamearr}}" wx:for-index="row" wx:for-item="itemrow">
+      <view class="td" wx:for="{{itemrow}}" wx:for-index="column" wx:for-item="itemcolumn" data-row="{{row}}" data-column="{{column}}"  bindtap="taphandler">
+        <view class="mask" wx:if="{{itemcolumn.switch}}"></view>
+        <text wx:if="{{itemcolumn.val==''}}">{{itemcolumn.val}}</text>
+        <text class="color1" wx:elif="{{itemcolumn.val==1}}">{{itemcolumn.val}}</text>
+        <text class="color2" wx:elif="{{itemcolumn.val==2}}">{{itemcolumn.val}}</text>
+        <text class="color3" wx:else>{{itemcolumn.val}}</text>
+      </view>
+    </view>
+    <view class="dialog warn" wx:if="{{gamewarn}}">
+      <icon type="warn" size="60" color="orange"></icon>
+      <text>Game Over</text>
+      <button bindtap="reset">重新开始</button>
+    </view>
+    <view class="dialog success" wx:if="{{gamesuccess}}">
+      <icon type="success" size="60" color="green"></icon>
+      <text>Success~</text>
+      <button bindtap="reset">重新开始</button>
+    </view>
+  </view>
+
+  <button class="setbtn" type="primary" bindtap="goset">设置游戏难度</button>
+
+  
+  
+</view>
+
+

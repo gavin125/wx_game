@@ -1,0 +1,17 @@
+<!--pages/set/set.wxml-->
+<view class="container">
+  <view class="hint">修改游戏甚至，将重新渲染游戏</view>
+  <view class="section">
+    <text class="section__title">设置行数</text>
+    <slider bindchange="rowChange" show-value min="12" max="16" value="{{row}}"/> 
+  </view>
+  <view class="section">
+    <text class="section__title">设置列数</text>
+    <slider bindchange="columnChange" show-value min="8" max="12" value="{{column}}"/> 
+  </view>
+  <view class="section">
+    <text class="section__title">设置雷数</text>
+    <slider bindchange="bombChange" show-value min="8" max="15" value="{{bomb}}"/> 
+  </view>
+  <button class="setbtn" type="primary" bindtap="setenter">确认设置</button>
+</view>

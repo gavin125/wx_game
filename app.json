@@ -1,0 +1,32 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/set/set",
+    "pages/about/about"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "小程序扫雷",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "selectedColor": "#1AAD19",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "GAME",
+      "iconPath": "images/game.png",
+      "selectedIconPath": "images/game_h.png"
+    },{
+      "pagePath": "pages/set/set",
+      "text": "SET",
+      "iconPath": "images/set.png",
+      "selectedIconPath": "images/set_h.png"
+    },{
+      "pagePath": "pages/about/about",
+      "text": "ABOUT",
+      "iconPath": "images/about.png",
+      "selectedIconPath": "images/about_h.png"
+    }]
+  }
+}
