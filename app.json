@@ -14,17 +14,17 @@
     "selectedColor": "#1AAD19",
     "list": [{
       "pagePath": "pages/index/index",
-      "text": "GAME",
+      "text": "游戏",
       "iconPath": "images/game.png",
       "selectedIconPath": "images/game_h.png"
     },{
       "pagePath": "pages/set/set",
-      "text": "SET",
+      "text": "设置",
       "iconPath": "images/set.png",
       "selectedIconPath": "images/set_h.png"
     },{
       "pagePath": "pages/about/about",
-      "text": "ABOUT",
+      "text": "关于",
       "iconPath": "images/about.png",
       "selectedIconPath": "images/about_h.png"
     }]

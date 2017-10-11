@@ -1,6 +1,6 @@
 <!--index.wxml-->
 <view class="container">
-
+  <image class='bg' src='../../images/bg.png'></image>
   <view class="hint">移动端无法标记雷，将不是雷的模块全部翻出为胜</view>
   
   <view class="game">

@@ -141,8 +141,8 @@ Page({
   //     return arrmap;
   // },
   
-  goset:function(){//游戏设置
-    wx.coverTab({url: '../set/set'});
+  goset:function(){//跳转到游戏设置页面
+    wx.switchTab({url: '../set/set'});
   },
   reset:function(){//console.log("重新开始")
     var that=this;

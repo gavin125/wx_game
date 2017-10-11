@@ -1,6 +1,7 @@
 <!--pages/set/set.wxml-->
 <view class="container">
-  <view class="hint">修改游戏甚至，将重新渲染游戏</view>
+  <image class='bg' src='../../images/bg.png'></image>
+  <view class="hint">修改游戏设置，游戏界面将会重新渲染</view>
   <view class="section">
     <text class="section__title">设置行数</text>
     <slider bindchange="rowChange" show-value min="12" max="16" value="{{row}}"/> 

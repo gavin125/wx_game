@@ -7,9 +7,8 @@
   justify-content: space-between;
   padding: 0;
   box-sizing: border-box;
-  background: url(../../images/bg.png);
-  background-size: 100% auto;
   position: absolute; width: 100%;
 } 
 
-.hint{ font-size: 24rpx; color: #1AAD19; background: #eee; border-bottom: solid 1px #ccc; width: 100%; text-align: center; padding: 20rpx 0; margin-bottom: 50rpx}
+.hint{ font-size: 24rpx; color: #1AAD19; background: #eee; border-bottom: solid 1px #ccc; width: 100%; text-align: center; padding: 20rpx 0; margin-bottom: 50rpx; position: relative; z-index: 9;}
+.bg{ position: absolute; width: 100%; height:100%; z-index: 0; }
